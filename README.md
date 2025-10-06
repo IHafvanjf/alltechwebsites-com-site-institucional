@@ -1,5 +1,7 @@
 # AllTech Websites — Site Institucional com Chatbot IA e Portfólio
 
+**Última revisão:** 10-2025
+
 Site institucional da **AllTech Websites**, empresa especializada em desenvolvimento web, e-commerce, SEO e integrações.  
 Projeto com foco em **performance** e **mobile-first**, incluindo **chatbot com IA**, carrosséis, galeria/portfólio, depoimentos, planos e contato inteligente via WhatsApp.
 

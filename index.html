@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Tech</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="icon" href="img/logoAlltech.png">
+</head>
+<body>
+    <ul class="circles">
+    <li></li>
+    <li></li>
+  </ul>
+  <div id="mensagem-email" class="mensagem-email"></div>
+
+ <div class="loader">
+  <div class="loader__logo">
+    <h1 class="loader__title">ALL TECH</h1>
+    <div class="loader__line"></div>
+    <ul class="loader-slogan">
+      <li class="loader-text-part" data-translate="slogan1">Inovar</li>
+      <li class="loader-text-part" data-translate="slogan2">Integrar</li>
+      <li class="loader-text-part" data-translate="slogan3">Evoluir</li>
+    </ul>    
+  </div> 
+</div>
+<header class="header-area">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a href="#home" class="navbar-brand">All Tech</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#home" class="nav-link active" data-scroll-nav="0" data-translate="inicio">Início</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link" data-scroll-nav="1" data-translate="sobre">Sobre</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link" data-scroll-nav="2" data-translate="servicos">Serviços</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link" data-scroll-nav="3" data-translate="portfolio">Portfólio</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link" data-scroll-nav="5" data-translate="precos">Preços</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link" data-scroll-nav="6" data-translate="contato">Contato</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="langDropdown" data-toggle="dropdown" data-translate="idioma">Idioma</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
+              <a class="dropdown-item" href="#" data-lang="pt-br">Português (BR)</a>
+              <a class="dropdown-item" href="#" data-lang="en">English</a>
+              <a class="dropdown-item" href="#" data-lang="es">Español</a>
+            </div>
+          </li>            
+          <li class="nav-item">
+            <div class="dark-mode-toggle">
+              <input type="checkbox" id="switch-theme" />
+              <label for="switch-theme" class="switch">
+                <span class="slider">
+                  <i class="fas fa-sun"></i>
+                  <i class="fas fa-moon"></i>
+                </span>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="home-slider owl-carousel">
+    <div class="slider-item" style="background-image: url('img/slide1.jpg');">
+      <div class="overlay"></div>
+      <div class="slider-content">
+        <h2 data-translate="tituloHome1">Ideia de Negócio Online</h2>
+        <p data-translate="textoHome1">Transforme sua visão em realidade: crie sua loja virtual, alcance clientes no mundo inteiro e expanda seu negócio sem limites</p>
+      </div>
+    </div>
+    <div class="slider-item" style="background-image: url('img/slide2.jpg');">
+      <div class="overlay"></div>
+      <div class="slider-content">
+        <h2 data-translate="tituloHome2">Automatização e Mais Agilidade</h2>
+        <p data-translate="textoHome2">Otimize processos, reduza erros e ganhe tempo...</p>
+      </div>
+    </div>
+    <div class="slider-item" style="background-image: url('img/slide3.jpg');">
+      <div class="overlay"></div>
+      <div class="slider-content">
+        <h2 data-translate="tituloHome3">Seu Negócio na Palma da Mão</h2>
+        <p data-translate="textoHome3">Conecte-se com seus clientes onde quer que estejam: aplicativos web responsivos e painéis que colocam seu negócio no bolso do cliente</p>
+      </div>
+    </div>
+  </div>
+</header>
+<!--  ABOUT  -->
+<section id="about" class="about-area section-padding" data-scroll-index="1">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title">
+          <h4 data-translate="sobre">Sobre</h4>
+          <h2 data-translate="sobreTitulo">DETALHES DA <span>ALL TECH</span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="about-content">
+          <h5 class="about-title" data-translate="sobreSubtitulo">Automatize Seu Negócio Com <span>All Tech</span></h5>
+          <p class="details" data-translate="sobreTexto">
+            Na All Tech, criamos automações web personalizadas para acelerar seus processos, eliminar erros manuais e oferecer aos seus clientes uma experiência digital ágil e intuitiva.  
+            Com integrações diretas a sistemas como CRM, ERP e plataformas de e-commerce, fornecemos painéis customizados e alertas automáticos que ampliam sua produtividade e garantem escalabilidade ao seu negócio.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="automation-carousel owl-carousel">
+          <div class="e-card playing">
+            <div class="image"></div>
+            <div class="wave"></div><div class="wave"></div><div class="wave"></div>
+            <div class="infotop" data-translate="automacao1"><i class="fa-solid fa-calendar icon"></i><br>Agendamento Automático</div>
+          </div>
+          <div class="e-card playing">
+            <div class="image"></div>
+            <div class="wave"></div><div class="wave"></div><div class="wave"></div>
+            <div class="infotop" data-translate="automacao2"><i class="fa-solid fa-shopping-cart icon"></i><br>Fluxo de Venda</div>
+          </div>
+          <div class="e-card playing">
+            <div class="image"></div>
+            <div class="wave"></div><div class="wave"></div><div class="wave"></div>
+            <div class="infotop" data-translate="automacao3"><i class="fa-solid fa-cogs icon"></i><br>Gerenciamento</div>
+          </div>
+          <div class="e-card playing">
+            <div class="image"></div>
+            <div class="wave"></div><div class="wave"></div><div class="wave"></div>
+            <div class="infotop" data-translate="automacao4"><i class="fa-solid fa-truck-fast icon"></i><br>Automação de Frete</div>
+          </div>
+          <div class="e-card playing">
+            <div class="image"></div>
+            <div class="wave"></div><div class="wave"></div><div class="wave"></div>
+            <div class="infotop">
+              <i class="fa-solid fa-lightbulb icon"></i><br>
+              <h4 data-translate="automacao5Titulo">E muito mais</h4>
+              <a href="#" class="btn-card" data-translate="enviarIdeia">Envie sua ideia!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--  SERVICES  -->
+<section id="services" class="area services section-padding" data-scroll-index="2">
+  <div class="container">
+    <!-- TÍTULO -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h4 data-translate="servicos">Serviços</h4>
+          <h2 data-translate="servicosTitulo">Nossos <span>Serviços</span></h2>
+        </div>
+      </div>
+    </div>
+    <!-- CARDS -->
+    <div class="services-wrapper">
+      <!-- 1 -->
+      <div class="glassmorphic-card">
+        <div class="imgBox">
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class="contentBox">
+          <h3>Desenvolvemosmento De Sites</h3>
+          <p>Criamos sites responsivos e otimizados, com design moderno e tecnologia atualizada para sua presença online.</p>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="glassmorphic-card">
+        <div class="imgBox">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="contentBox">
+          <h3>Otimização De SEO</h3>
+          <p>Melhoramos seu ranqueamento nos mecanismos de busca, aumentando a visibilidade e atraindo mais tráfego qualificado.</p>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="glassmorphic-card">
+        <div class="imgBox">
+          <i class="fas fa-wrench"></i>
+        </div>
+        <div class="contentBox">
+          <h3>Manutenção E Suporte</h3>
+          <p>Garantimos que seu site ou sistema esteja sempre atualizado, seguro e funcionando 24/7, com suporte dedicado.</p>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="glassmorphic-card">
+        <div class="imgBox">
+          <i class="fas fa-plug"></i>
+        </div>
+        <div class="contentBox">
+          <h3>Integração De APIs</h3>
+          <p>Conectamos seu site a serviços externos, automatizando processos e trocando dados em tempo real.</p>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="glassmorphic-card">
+        <div class="imgBox">
+          <i class="fas fa-sliders-h"></i>
+        </div>
+        <div class="contentBox">
+          <h3>Sistemas Personalizados</h3>
+          <p>Desenvolvemos aplicações sob medida para suas necessidades, com funcionalidades exclusivas e escalabilidade garantida.</p>
+        </div>
+      </div>
+      <!-- 6 -->
+      <div class="glassmorphic-card">
+        <div class="imgBox">
+          <i class="fas fa-vector-square"></i>
+        </div>
+        <div class="contentBox">
+          <h3>UX/UI Design</h3>
+          <p>Projetamos interfaces intuitivas e agradáveis, focadas na melhor experiência do usuário e na conversão dos visitantes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="pf-section" data-scroll-index="3">
+  <div class="container">
+    <h2 class="pf-title">Portfólio</h2>
+
+    <!-- = VENDIDOS = -->
+    <h3 class="pf-subtitle">Vendidos</h3>
+    <div class="pf-grid">
+      <!-- ICAO (vendido) -->
+      <article class="pf-card is-sold" data-speed="108">
+        <span class="pf-badge pf-badge-sold">Vendido</span>
+        <a class="pf-link" href="https://mastericao.com.br" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/icaoFull.png" alt="ICAO — landing de captação com teste A/B">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Master ICAO</h3>
+            <p class="pf-desc">Landing de venda de material online</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Gestão (vendido) -->
+      <article class="pf-card is-sold" data-speed="108">
+        <span class="pf-badge pf-badge-sold">Vendido</span>
+        <a class="pf-link" href="https://darkcyan-penguin-369201.hostingersite.com/inicio.php" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/gestaoFull.png" alt="Gestão — dashboard com gráficos em tempo real">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Gestão</h3>
+            <p class="pf-desc">Painel de métricas com sockets e relatórios.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="pf-card is-dev is-locked" data-nopan>
+        <a class="pf-link" href="#" tabindex="-1" aria-disabled="true">
+          <div class="pf-preview">
+            <!-- DEV Loader -->
+            <div class="dl-loader" role="status" aria-label="Projeto em desenvolvimento, codando">
+              <div class="dl-wrapper">
+                <span class="dl-letter">c</span>
+                <span class="dl-letter">o</span>
+                <span class="dl-letter">d</span>
+                <span class="dl-letter">a</span>
+                <span class="dl-letter">n</span>
+                <span class="dl-letter">d</span>
+                <span class="dl-letter">o</span>
+                <span class="dl-letter">.</span>
+                <span class="dl-letter">.</span>
+                <span class="dl-letter">.</span>
+                <div class="dl-circle" aria-hidden="true"></div>
+              </div>
+            </div>
+            <!-- /DEV Loader -->
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">BzArtes</h3>
+            <p class="pf-desc">Em desenvolvimento.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Restaurante (vendido) -->
+      <article class="pf-card is-sold" data-speed="108">
+        <span class="pf-badge pf-badge-sold">Vendido</span>
+        <a class="pf-link" href="https://snow-badger-290734.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/restauranteFull.png" alt="Restaurante — site com pedidos e cardápio">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Los Brothers Burguer</h3>
+            <p class="pf-desc">Pagina completa para delivery.</p>
+          </div>
+        </a>
+      </article>
+    </div>
+
+    <!-- = PROJETOS = -->
+    <h3 class="pf-subtitle">Projetos</h3>
+    <div class="pf-grid">
+      <!-- Barbearia -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://slateblue-lion-896979.hostingersite.com/" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/barberFull.png" alt="Barbearia — landing com agenda e automação">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Barbearia</h3>
+            <p class="pf-desc">Site completo e agendamento de horario e muito mais.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Casamento -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://dimgrey-narwhal-627958.hostingersite.com/index.html" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/casamentoFull.png" alt="Casamento — app de agendamento com painel admin">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Casamento</h3>
+            <p class="pf-desc">Sistema completo com convite online e muito mais.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Aniversário de 15 anos -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://mediumpurple-boar-613017.hostingersite.com/login/index.html" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/aniversarioFull.png" alt="Aniversário de 15 anos — e-commerce leve com checkout">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Aniversário de 15 anos</h3>
+            <p class="pf-desc">Sistema completo para aníversario com convite online e muito mais.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Concessionária -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://palevioletred-porpoise-249991.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/concessionariaFull.png" alt="Concessionária — institucional com blog">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Concessionária</h3>
+            <p class="pf-desc">Sistema completo para concessionária 100% automática.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Imobiliária -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://plum-mongoose-788265.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/imobiliariaFull.png" alt="Imobiliária — portal com CMS headless">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Imobiliária</h3>
+            <p class="pf-desc">Site completo para catálogo de casas e muito mais. </p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Dia dos Namorados -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://darkslateblue-gerbil-346512.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/namoroFull.png" alt="Dia dos Namorados — catálogo com frete e Pix">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Dia dos Namorados</h3>
+            <p class="pf-desc">O site perfeito e completo para confraternizar anônimamente.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Clínica Odontológica -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://darkorchid-cheetah-286611.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/odontoFull.png" alt="Clínica odontológica — PWA offline-first">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Clínica Odontológica</h3>
+            <p class="pf-desc">Site completo com para agendamento 100% online e automático.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Pet Shop -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://orchid-bat-742114.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/petFull.png" alt="Pet Shop — micro landings multi-campanhas">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Pet Shop</h3>
+            <p class="pf-desc">Site completo para seu petshop com página de controle e muito mais.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Quadra de Futebol -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://lavenderblush-whale-354742.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/quadraFull.png" alt="Quadra de futebol — checkout por WhatsApp">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Quadra de Futebol</h3>
+            <p class="pf-desc">Página com agendamento de hórario automático perfeito para sua quadra.</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Salão de Beleza -->
+      <article class="pf-card" data-speed="108">
+        <a class="pf-link" href="https://peru-tiger-506075.hostingersite.com" target="_blank" rel="noopener">
+          <div class="pf-preview">
+            <img loading="lazy" src="img/salaoFull.png" alt="Salão de beleza — orçamentos com aprovações">
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Salão de Beleza</h3>
+            <p class="pf-desc">Site perfeito para seu salão com agendametno 1005 automático.</p>
+          </div>
+        </a>
+      </article>
+    </div>
+
+    <!-- ==== EM DESENVOLVIMENTO (bloqueados) ==== -->
+    <h3 class="pf-subtitle">Em desenvolvimento</h3>
+    <div class="pf-grid">
+      <article class="pf-card is-dev is-locked" data-nopan>
+        <a class="pf-link" href="#" tabindex="-1" aria-disabled="true">
+          <div class="pf-preview">
+            <!-- DEV Loader -->
+            <div class="dl-loader" role="status" aria-label="Projeto em desenvolvimento, codando">
+              <div class="dl-wrapper">
+                <span class="dl-letter">c</span>
+                <span class="dl-letter">o</span>
+                <span class="dl-letter">d</span>
+                <span class="dl-letter">a</span>
+                <span class="dl-letter">n</span>
+                <span class="dl-letter">d</span>
+                <span class="dl-letter">o</span>
+                <span class="dl-letter">.</span>
+                <span class="dl-letter">.</span>
+                <span class="dl-letter">.</span>
+                <div class="dl-circle" aria-hidden="true"></div>
+              </div>
+            </div>
+            <!-- /DEV Loader -->
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Loja de roupa</h3>
+            <p class="pf-desc">Em desenvolvimento.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="pf-card is-dev is-locked" data-nopan>
+        <a class="pf-link" href="#" tabindex="-1" aria-disabled="true">
+          <div class="pf-preview">
+            <!-- DEV Loader -->
+            <div class="dl-loader" role="status" aria-label="Projeto em desenvolvimento, codando">
+              <div class="dl-wrapper">
+                <span class="dl-letter">c</span>
+                <span class="dl-letter">o</span>
+                <span class="dl-letter">d</span>
+                <span class="dl-letter">a</span>
+                <span class="dl-letter">n</span>
+                <span class="dl-letter">d</span>
+                <span class="dl-letter">o</span>
+                <span class="dl-letter">.</span>
+                <span class="dl-letter">.</span>
+                <span class="dl-letter">.</span>
+                <div class="dl-circle" aria-hidden="true"></div>
+              </div>
+            </div>
+            <!-- /DEV Loader -->
+          </div>
+          <div class="pf-body">
+            <h3 class="pf-name">Estúdio de tatuagem</h3>
+            <p class="pf-desc">Em desenvolvimento.</p>
+          </div>
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!--  PRICING  -->
+<section id="pricing" class="pricing section-padding" data-scroll-index="5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h4>Preços</h4>
+          <h2>Planos <span>de Preços</span></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <!-- Plano E‑commerce -->
+      <div class="col-lg-4 col-md-6 mb-4 animate-on-scroll">
+        <div class="pricing-plan h-100">
+          <div class="pricing-header">
+            <h3>E‑Commerce</h3>
+          </div>
+          <div class="pricing-price">
+            <span class="currency">R$</span>
+            <span class="price">300</span>
+            <span class="period">/mês</span>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li data-translate="plano1item1"><i class="fa-solid fa-check"></i> Benefícios personalizados</li>
+              <li data-translate="plano1item2"><i class="fa-solid fa-check"></i> Painel de controle completo</li>
+              <li data-translate="plano1item3"><i class="fa-solid fa-check"></i> +2 profissionais inclusos</li>
+              <li data-translate="plano1item4"><i class="fa-solid fa-check"></i> Manutenção e suporte</li>
+              <li data-translate="plano1item5"><i class="fa-solid fa-check"></i> Integração com métodos de pagamento (Pix, boleto, cartão)</li>
+              <li data-translate="plano1item6"><i class="fa-solid fa-check"></i> Gerenciamento de estoque</li>
+              <li data-translate="plano1item7"><i class="fa-solid fa-check"></i> Carrinho com recuperação de abandono</li>
+              <li data-translate="plano1item8"><i class="fa-solid fa-check"></i> Relatórios de vendas mensais (PDF)</li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="#" class="btn btn-2 whatsapp-btn" data-plan="ecommerce" data-translate="contratar">Contratar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plano Agendamento -->
+      <div class="col-lg-4 col-md-6 mb-4 animate-on-scroll">
+        <div class="pricing-plan h-100">
+          <div class="pricing-header">
+            <h3>Agendamento</h3>
+          </div>
+          <div class="pricing-price">
+            <span class="currency">R$</span>
+            <span class="price">100</span>
+            <span class="period">/mês</span>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li data-translate="plano2item1"><i class="fa-solid fa-check"></i> Alta taxa de conversão</li>
+              <li data-translate="plano2item2"><i class="fa-solid fa-check"></i> Painel de controle intuitivo</li>
+              <li data-translate="plano2item3"><i class="fa-solid fa-check"></i> +2 profissionais inclusos</li>
+              <li data-translate="plano2item4"><i class="fa-solid fa-check"></i> Manutenção e suporte mensal</li>
+              <li data-translate="plano2item5"><i class="fa-solid fa-check"></i> Agendamento online com confirmação automática</li>
+              <li data-translate="plano2item6"><i class="fa-solid fa-check"></i> Notificações por WhatsApp ou e-mail</li>
+              <li data-translate="plano2item7"><i class="fa-solid fa-check"></i> Bloqueio de horários ocupados</li>
+              <li data-translate="plano2item8"><i class="fa-solid fa-check"></i> Relatórios mensais de agendamentos (PDF)</li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="#" class="btn btn-2 whatsapp-btn" data-plan="agendamento" data-translate="contratar">Contratar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plano Landing Page -->
+      <div class="col-lg-4 col-md-6 mb-4 animate-on-scroll">
+        <div class="pricing-plan h-100">
+          <div class="pricing-header">
+            <h3>Landing Page</h3>
+          </div>
+          <div class="pricing-price">
+            <span class="currency">R$</span>
+            <span class="price">30</span>
+            <span class="period">/mês</span>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li data-translate="plano3item1"><i class="fa-solid fa-check"></i> Inclusão de chatbot</li>
+              <li data-translate="plano3item2"><i class="fa-solid fa-check"></i> Design interativo e responsivo</li>
+              <li data-translate="plano3item3"><i class="fa-solid fa-check"></i> Recursos de acessibilidade (dark mode, libras etc.)</li>
+              <li data-translate="plano3item4"><i class="fa-solid fa-check"></i> Entrega em até 7 dias</li>
+              <li data-translate="plano3item5"><i class="fa-solid fa-check"></i> Botões de redes sociais (Instagram, WhatsApp etc.)</li>
+              <li data-translate="plano3item6"><i class="fa-solid fa-check"></i> Formulário de contato funcional</li>
+              <li data-translate="plano3item7"><i class="fa-solid fa-check"></i> Hospedagem gratuita por 1 mês</li>
+              <li data-translate="plano3item8"><i class="fa-solid fa-check"></i> Segurança HTTPS (SSL incluso)</li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="#" class="btn btn-2 whatsapp-btn" data-plan="landing" data-translate="contratar">Contratar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!--  FAQ  -->
+<div class="faq section-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title">
+          <h4 data-translate="faq">Perguntas Frequentes</h4>
+          <h2 data-translate="faqTitulo">Perguntas <span>Mais Frequentes</span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div id="accordion">
+
+          <div class="accordion-item">
+            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-01">
+              <h3 data-translate="faq1Titulo">Qual o prazo de entrega de um site completo?</h3>
+            </div>
+            <div id="collapse-01" class="collapse" data-parent="#accordion">
+              <div class="accordion-body">
+                <p data-translate="faq1Texto">Em média, um site institucional leva de 7 a 14 dias úteis, dependendo da complexidade; e-commerces ou sistemas personalizados costumam levar de 15 a 30 dias.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-02">
+              <h3 data-translate="faq2Titulo">Como funciona o suporte e manutenção?</h3>
+            </div>
+            <div id="collapse-02" class="collapse" data-parent="#accordion">
+              <div class="accordion-body">
+                <p data-translate="faq2Texto">Oferecemos pacotes de manutenção mensal com atualizações, correções de segurança e backups automáticos para manter seu site sempre estável.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-03">
+              <h3 data-translate="faq3Titulo">Meus dados estarão seguros?</h3>
+            </div>
+            <div id="collapse-03" class="collapse" data-parent="#accordion">
+              <div class="accordion-body">
+                <p data-translate="faq3Texto">Implementamos certificados SSL, políticas de backup e práticas de código seguro para proteger suas informações contra invasões.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+              <h3 data-translate="faq4Titulo">Quais tipos de automação vocês oferecem?</h3>
+            </div>
+            <div id="collapse-04" class="collapse" data-parent="#accordion">
+              <div class="accordion-body">
+                <p data-translate="faq4Texto">Trabalhamos com automação de agendamento, e-commerce, fluxos de venda, envio de e-mails, integrações de CRM/ERP, alertas automáticos e chatbots.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-05">
+              <h3 data-translate="faq5Titulo">Posso adicionar funcionalidades depois da entrega?</h3>
+            </div>
+            <div id="collapse-05" class="collapse" data-parent="#accordion">
+              <div class="accordion-body">
+                <p data-translate="faq5Texto">Claro: oferecemos serviços de evolução contínua para implementar novas features, integrar APIs ou expandir seu sistema sempre que precisar.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-06">
+              <h3 data-translate="faq6Titulo">Qual a agilidade da automação?</h3>
+            </div>
+            <div id="collapse-06" class="collapse" data-parent="#accordion">
+              <div class="accordion-body">
+                <p data-translate="faq6Texto">Após a configuração inicial (geralmente em até 7 dias úteis), a automação começa a operar imediatamente, trazendo ganhos de produtividade já a partir do primeiro ciclo.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-07">
+              <h3 data-translate="faq7Titulo">Vocês também hospedam e registram domínio?</h3>
+            </div>
+            <div id="collapse-07" class="collapse" data-parent="#accordion">
+              <div class="accordion-body">
+                <p data-translate="faq7Texto">Sim: prestamos serviço completo de registro de domínio, configuração de hospedagem em servidores rápidos e monitoramento 24/7.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--  CONTACT  -->
+  <section id="contact" class="contact section-padding" data-scroll-index="6">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4 data-translate="contato">Contato</h4>
+            <h2 data-translate="contatoTitulo">Entre em <span>contato</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5">
+          <div class="contact-info">
+            <h3 data-translate="duvidasSuporte">Para dúvidas e suporte</h3>
+            <div class="contact-info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <h4 data-translate="escrevaPara">Escreva para nós em</h4>
+              <p>alltechwebsites@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+              <i class="fa-solid fa-phone"></i>
+              <h4 data-translate="liguePara">Ligue para</h4>
+              <p>+55 (31)99794-1735</p>
+              <p>+55 (31)98730-5141</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-7">
+          <div class="contact-form">
+            <form action="enviar.php" method="POST">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input type="text" name="nome" data-placeholder="placeholderNome" class="form-control mb-3" placeholder="Seu Nome" required>
+                </div>
+                <div class="col-lg-6">
+                  <input type="email" name="email"  data-placeholder="placeholderEmail" class="form-control mb-3" placeholder="Seu Email" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <input type="text" name="telefone" data-placeholder="placeholderTelefone" class="form-control mb-3" placeholder="Seu Telefone" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <input type="text" name="assunto" data-placeholder="placeholderAssunto" class="form-control mb-3" placeholder="Assunto" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <textarea name="mensagem" data-placeholder="placeholderMensagem" class="form-control mb-3" placeholder="Sua Mensagem" rows="5" required></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button type="submit" class="btn btn-2" data-translate="enviarMensagem">Enviar Mensagem</button>
+                </div>
+              </div>
+            </form>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+<!-- SUBSTITUA o <div class="chatbot-toggle"...> por: -->
+<button id="at-fab" class="chatbot-toggle" type="button"
+        aria-controls="at-panel" aria-expanded="false" aria-label="Abrir chat">
+  <i class="fas fa-comments"></i>
+</button>
+
+  
+<div class="at-panel" id="at-panel" role="dialog" aria-modal="true" aria-labelledby="at-title">
+  <div class="at-head">
+    <div class="at-title" id="at-title">💬 Ajuda All Tech</div>
+    <button class="at-expand" id="at-expand" title="Expandir/Reduzir">↕</button>
+    <button class="at-close" id="at-close" title="Fechar">×</button>
+  </div>
+
+  <div class="at-log" id="at-log" aria-live="polite"></div>
+
+  <div class="at-consent">
+    <label><input type="checkbox" id="at-lgpd" checked> <span data-i18n="lgpd">Concordo em ser contatado(a) por e-mail/WhatsApp (LGPD).</span></label>
+  </div>
+
+  <div class="at-inputbar">
+    <input id="at-input" type="text" placeholder="Escreva aqui…" aria-label="Escreva sua mensagem">
+    <button id="at-send"><span data-i18n="enviar">Enviar</span></button>
+  </div>
+
+  <input type="hidden" id="at-utm-source">
+  <input type="hidden" id="at-utm-campaign">
+</div>
+
+
+  
+<!--  FOOTER  -->
+<footer class="footer-section">
+  <div class="container">
+    <div class="footer-cta pt-5 pb-5">
+      <div class="row">
+        <div class="col-xl-4 col-md-4 mb-30">
+          <div class="single-cta">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="cta-text">
+              <h4 data-translate="rodapeEnderecoTitulo">Encontre-nos</h4>
+              <span data-translate="rodapeEnderecoLocal">Belo Horizonte - MG</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-4 mb-30">
+          <div class="single-cta">
+            <i class="fas fa-phone"></i>
+            <div class="cta-text">
+              <h4 data-translate="rodapeTelefoneTitulo">Telefone</h4>
+              <span>3199794-1735</span><br>
+              <span>3198730-5141</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-4 mb-30">
+          <div class="single-cta">
+            <i class="far fa-envelope-open"></i>
+            <div class="cta-text">
+              <h4 data-translate="rodapeEmailTitulo">Email</h4>
+              <span>techinnova01@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-content pt-5 pb-5">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 mb-50">
+          <div class="footer-widget">
+            <div class="footer-logo">
+              <a><img src="img/logoAlltech.png" class="img-fluid" alt="logo"></a>
+            </div>
+            <div class="footer-text">
+              <p data-translate="rodapeDescricao">
+                A AllTech é a revolução digital que sua empresa precisa! Especialistas em Desenvolvemosmento de sites e aplicações web, transformamos ideias em experiências digitais envolventes, escaláveis e de alto desempenho. Seja para fortalecer sua presença online, aumentar suas conversões ou oferecer uma experiência digital impecável, criamos soluções sob medida para o seu negócio.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3 data-translate="rodapeServicosTitulo">Serviços</h3>
+            </div>
+            <ul>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico1">Desenvolvemosmento de Sites</a></li>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico2">Aplicações Web</a></li>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico3">E-commerce</a></li>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico4">Otimização de SEO</a></li>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico5">Manutenção e Suporte</a></li>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico6">Integração de APIs</a></li>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico7">Sistemas Personalizados</a></li>
+              <li class="listaFooter"><a href="#" data-translate="rodapeServico8">UX/UI Design</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3 data-translate="rodapeContatoTitulo">Fale Conosco</h3>
+            </div>
+            <div class="footer-text mb-25">
+              <p data-translate="rodapeContatoTexto">Precisa de um orçamento ou tem alguma dúvida? Fale conosco agora pelo WhatsApp!</p>
+            </div>
+            <div class="whatsapp-btn">
+              <a href="https://wa.me/31997941735" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                <div class="copyright-text">
+                  <p data-translate="rodapeCopy">Copyright &copy; 2025, Todos os direitos reservados, AllTech</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</footer>
+<!-- fim Footer -->
+  <!-- Exemplo do seletor de idioma -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const messages = {
+        ecommerce: {
+          pt: "Olá! Tenho interesse no plano E-commerce de R$300/mês.",
+          en: "Hi! I'm interested in the E-commerce plan for R$300/month.",
+          es: "¡Hola! Estoy interesado en el plan E-commerce de R$300/mes."
+        },
+        agendamento: {
+          pt: "Olá! Tenho interesse no plano de Agendamento de R$100/mês.",
+          en: "Hi! I'm interested in the Scheduling plan for R$100/month.",
+          es: "¡Hola! Estoy interesado en el plano de Agendamiento de R$100/mes."
+        },
+        landing: {
+          pt: "Olá! Tenho interesse no plano Landing Page de R$30/mês.",
+          en: "Hi! I'm interested in the Landing Page plan for R$30/month.",
+          es: "¡Hola! Estoy interesado en el plano de Landing Page de R$30/mes."
+        }
+      };
+
+      // Detecta o idioma selecionado via menu (ou fallback do navegador)
+      const lang = localStorage.getItem('lang') || (navigator.language || 'pt').substring(0, 2);
+
+      document.querySelectorAll('.whatsapp-btn').forEach(btn => {
+        btn.addEventListener('click', e => {
+          e.preventDefault();
+          const plan = btn.getAttribute('data-plan');
+          const msg = messages[plan][lang] || messages[plan]['pt'];
+          const text = encodeURIComponent(msg);
+          window.open(`https://wa.me/5531997941735?text=${text}`, '_blank');
+        });
+      });
+    });
+
+    (function () {
+  const KEY = 'theme';
+  const saved = localStorage.getItem(KEY);
+  const initial = (saved === 'dark' || saved === 'light') ? saved : 'dark';
+
+  // aplica o tema salvo (ou 'dark' por padrão)
+  document.documentElement.setAttribute('data-theme', initial);
+
+  // sincroniza o checkbox
+  const toggle = document.getElementById('switch-theme');
+  if (toggle) {
+    toggle.checked = (initial === 'dark');
+    toggle.addEventListener('change', function () {
+      const theme = this.checked ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem(KEY, theme);
+    });
+  }
+})();
+  </script>
+
+<script defer src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+<script defer src="lang.js"></script>
+<script defer src="script.js"></script>
+
+</body>
+</html>
+
